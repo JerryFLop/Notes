@@ -24,11 +24,32 @@ OCP also applies to packages.
 - The word Interfaces are not just java interface.
 - Pay attention to large interfaces and take action.
                
-                                     Benefits in using ISP          
+                                               Benefits in using ISP          
 - Lean interface minimize dependencies on unused members and reduce code coupling.
 - Code becomes more cohesive and focused
 - It reinforces the use of the SRP and LSP.
 
 
-<b>Dependency Inversion Principle</b>:
--
+<b>Dependency Inversion Principle:</b>
+- High level modules should not depend on low level modules; both should depend on abstractions.
+- Abstractions should not depend on details.
+   Details should depend upon abstraction.
+
+ <b>Dependency Injection:</b> Allows the creation of dependent objects outside of class and provides those objects to a class.
+
+- <b>Inversion of Control:</b> control of object Creation,config,and lifecycle is passed to a container or framework.
+- Spring Bean: used by your application that are managed by the Spring ioC container.
+- Classes should depend on abstractions not implementation details.
+- The DIP,DI and ioC are the most effective way to eliminate code coupling and keep systems easy to maintain and evolve.
+
+                                                 High Level Modules
+- Written to solve real problems and use cases
+- More abstract and map to the business domain
+- Tells us what the software should do
+                                         
+                                                 Low level Modules
+- Contain implementation details that are required to execute the business policies
+- Considered the "plumbing" or "internals" of application
+- Tells us how the software should do various tasks.
+---------------------------------------------------------------------
+
