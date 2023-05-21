@@ -85,10 +85,23 @@ ______________________________________________________________________
 - Find the appropriate design
 - Communication and documentation
 
-                                                   Strategy Pattern
+                                                       Strategy Pattern
 - Changer a Part of a system independently of all other parts
 - Swap out behavior at run-time
 - its mix of Encapsulation, favoring composition over inheritance, Open-close principle and Programming to interfaces.
+  
+                                                          Singleton
+  - One instance providing a global point of access
+  
+                                                         Factory Method
+- Allows subclasses decide which class to instantiate
+ 
+                                                          Abstract Factory
+- Creates hierarchies or families of related object
+
+                                                             Builder
+- Separate the construction of an object from its representation
+
 
 ________________________________________________________________________________________________________________________________
 __________________________________________________________________________________________________________________________________
