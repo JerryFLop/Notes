@@ -33,7 +33,7 @@ OCP also applies to packages.
 <b>Dependency Inversion Principle:</b>
 - High level modules should not depend on low level modules; both should depend on abstractions.
 - Abstractions should not depend on details.
-   Details should depend upon abstraction.
+  - Details should depend upon abstraction.
 
  <b>Dependency Injection:</b> Allows the creation of dependent objects outside of class and provides those objects to a class.
 
@@ -73,7 +73,7 @@ ______________________________________________________________________
                                              
                                                   Pattern  Classification
 - Purpose:
-  - Creational
+  - Creation
   - Behavioral
   - Structural
 - Scope :
