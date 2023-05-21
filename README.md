@@ -51,5 +51,56 @@ OCP also applies to packages.
 - Contain implementation details that are required to execute the business policies
 - Considered the "plumbing" or "internals" of application
 - Tells us how the software should do various tasks.
+______________________________________________________________________
+ <b> Design Patterns Notes</b>
 ---------------------------------------------------------------------
 
+
+- Reusable and named solution to a recurring problem in a context.
+  
+                                                 OOP building blocks
+- Abstraction
+- Encapsulation
+- Inheritance
+- Polymorphism
+
+
+                                                     Other Principles
+- Don't repeat yourself(DRY).
+- Encapsulate what changes.
+- Favor composition over inheritance.
+- Programming to an interface, not an implementation.
+                                             
+                                                  Pattern  Classification
+- Purpose:
+  - Creational
+  - Behavioral
+  - Structural
+- Scope :
+  - Class
+  - Object
+  
+                                                  Design Pattern Benefits
+- Patterns are about reusability
+- Find the appropriate design
+- Communication and documentation
+
+                                                   Strategy Pattern
+- Changer a Part of a system independently of all other parts
+- Swap out behavior at run-time
+- its mix of Encapsulation, favoring composition over inheritance, Open-close principle and Programming to interfaces.
+
+________________________________________________________________________________________________________________________________
+__________________________________________________________________________________________________________________________________
+Chapter 11 Risky Behavior
+----------------------------------------------------------------------------------------
+- Sure! Here's a summary of the provided information:
+
+- A method can throw an exception when something goes wrong at runtime.
+- An exception is always an object of type exception.
+- The compiler does not enforce handling of exceptions that are of type RuntimeException. They do not need to be declared or wrapped in a try/catch block.
+- To throw an exception in a method, the "throw" keyword is used, followed by a new exception object.
+- Methods that might throw a checked exception (exceptions other than RuntimeException) must declare it in their method signature using the "throws" keyword.
+
+In summary, a method can throw exceptions at runtime, and exceptions are objects of type exception. RuntimeException exceptions do not need to be explicitly handled. The "throw" keyword is used to throw an exception, and checked exceptions must be declared using the "throws" keyword.
+  
