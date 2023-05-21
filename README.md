@@ -102,5 +102,4 @@ Chapter 11 Risky Behavior
 - To throw an exception in a method, the "throw" keyword is used, followed by a new exception object.
 - Methods that might throw a checked exception (exceptions other than RuntimeException) must declare it in their method signature using the "throws" keyword.
 
-In summary, a method can throw exceptions at runtime, and exceptions are objects of type exception. RuntimeException exceptions do not need to be explicitly handled. The "throw" keyword is used to throw an exception, and checked exceptions must be declared using the "throws" keyword.
   
