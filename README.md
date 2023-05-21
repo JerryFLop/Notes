@@ -94,12 +94,19 @@ ________________________________________________________________________________
 __________________________________________________________________________________________________________________________________
 Chapter 11 Risky Behavior
 ----------------------------------------------------------------------------------------
-- Sure! Here's a summary of the provided information:
-
 - A method can throw an exception when something goes wrong at runtime.
 - An exception is always an object of type exception.
 - The compiler does not enforce handling of exceptions that are of type RuntimeException. They do not need to be declared or wrapped in a try/catch block.
 - To throw an exception in a method, the "throw" keyword is used, followed by a new exception object.
 - Methods that might throw a checked exception (exceptions other than RuntimeException) must declare it in their method signature using the "throws" keyword.
+_____________________________________________________________________________________________
+Chapter 13a - b Exception
+-----------------------------------
+- An exception is an unexpected event that occurs at runtime due to an error.
+- Exceptions can be handled using the try/catch construct. When an exception is caught, it can be accessed using the stack trace and the `getMessage()` method, which provides the error message without the stack trace.
+- The `finally` block is used to execute code that should always run, regardless of whether an exception is thrown or caught.
+- Try with resources is a feature that allows you to automatically close resources without explicitly using the `finally` block. It requires the resource to implement the `Closable` or `AutoClosable` interfaces.
+- If a method contains code that may throw an exception, it must either catch that exception using try/catch or rethrow it using the `throws` keyword in the method signature.
+- The `throws` keyword is used to declare the type of exception that may be thrown by a method.
 
-  
+
